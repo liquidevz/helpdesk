@@ -1,0 +1,15 @@
+@import '../../common/resources/client/common.css';
+@import 'help-center/articles/article-page/article-body.css';
+@import 'reply-editor/ticket-reply-body.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hc-grid {
+  display: grid;
+  grid-template-areas: "navbar navbar navbar"
+"sidenav-left content sidenav-right";
+  grid-template-rows:  auto 1fr;
+  grid-template-columns: 1fr minmax(auto, 802px) 1fr;
+}

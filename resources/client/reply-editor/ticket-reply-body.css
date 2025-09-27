@@ -1,0 +1,56 @@
+.ticket-reply-body strong {
+  @apply font-bold;
+}
+
+.ticket-reply-body ul {
+  @apply list-disc pl-16;
+}
+
+.ticket-reply-body ol {
+  @apply list-decimal pl-16;
+}
+
+.ticket-reply-body [data-indent="1"] {
+  @apply pl-20;
+}
+
+.ticket-reply-body [data-indent="2"] {
+  @apply pl-40;
+}
+
+.ticket-reply-body [data-indent="3"] {
+  @apply pl-60;
+}
+
+.ticket-reply-body [data-indent="4"] {
+  @apply pl-80;
+}
+
+.ticket-reply-body [data-indent="5"] {
+  @apply pl-100;
+}
+
+.ticket-reply-body [data-indent="6"] {
+  @apply pl-120;
+}
+
+.ticket-reply-body a {
+  @apply text-primary font-semibold hover:underline;
+}
+
+.ticket-reply-body img {
+  @apply my-28 rounded-md;
+}
+
+.ticket-reply-body pre {
+  @apply text-white bg-[#1f2937] font-normal text-xs my-22 p-12 rounded-md overflow-x-auto;
+}
+
+.ticket-reply-body pre code {
+  @apply bg-transparent font-[inherit] text-[inherit] p-0 rounded-none border-0 leading-[inherit];
+}
+
+.ticket-reply-body p:empty:before {
+  content: '';
+  display: inline-block;
+}
