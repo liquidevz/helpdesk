@@ -1,0 +1,7 @@
+storage/
+bootstrap/cache/
+node_modules/
+vendor/
+.env
+.env.*
+!.env.example
